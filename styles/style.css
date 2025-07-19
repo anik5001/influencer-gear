@@ -165,3 +165,16 @@ ul li a{
   border: none;
   font-size: 800;
 }
+
+/* footer section */
+#footer-section
+{
+ max-width:1644px;
+  height: 250px;
+  background-color: #0A0826;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 30px;
+  margin-bottom: 100px;
+
+}
