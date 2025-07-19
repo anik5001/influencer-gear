@@ -1,0 +1,57 @@
+
+
+body{
+max-width: 1140px;
+margin: 0 auto;
+}
+
+/* shared style */
+.primary-color1{
+  color: #3A3A3A;
+}
+
+
+
+
+/* navbar style */
+
+.navbar-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+ul{
+  display: flex;
+  gap: 40px;
+}
+ul li{
+  list-style: none;
+}
+ul a{
+  text-decoration: none;
+  color:#3A3A3A;
+}
+/* banner1 section */
+.banner1{
+  display: flex;
+  justify-content: space-between;
+}
+.banner1-heading{
+  font-weight: bold;
+  font-size: 3.25rem;
+  margin-bottom: 0;
+}
+.banner1-description{
+  font-weight: 500;
+}
+.banner1-btn{
+  background-color: #E02C6D;
+  width: 200px;
+  height: 45px;
+  color: white;
+  font-weight: bold;
+}
