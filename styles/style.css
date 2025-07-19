@@ -70,6 +70,7 @@ ul li a{
   padding: 10px 20px;
   border-radius: 40px;
  border: none;
+ 
 }
 .banner1-right{
   background-image: url('../images/Circle\ design.svg');
@@ -163,7 +164,7 @@ ul li a{
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
-  font-size: 800;
+  font-weight: 800;
 }
 
 /* footer section */
@@ -205,17 +206,27 @@ ul li a{
     flex-direction: column-reverse;
     text-align: center;
     gap: 40px;
+    padding-left: 20px;
+    
   }
   .logo{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap:8px;
-    padding-left: 20px;
+    padding-left: 120px;
   }
   .card-container{
     grid-template-columns: repeat(1,1fr);
     gap: 15px;
     justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    
   }
+   footer{
+    max-width:100%;
+    margin-left: 50px;
 
+   }
 }
